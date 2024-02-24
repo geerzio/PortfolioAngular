@@ -1,0 +1,14 @@
+.banner-container{
+    background-image: url(../../../src/assets/img/IMG-20230101-WA0076.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 50px;
+    position: relative;
+    height: 73%;
+}
+
+.titleh2{
+    columns: azure;
+    font-size: 4.5rem;
+    text-shadow: 3px 3px 5px  #000;
+}
