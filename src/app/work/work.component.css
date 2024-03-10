@@ -1,0 +1,15 @@
+.work-container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: aquamarine;
+
+    .text-work{
+        margin-left: 3rem;
+        h5{
+            font-size: 2.5rem;
+        }
+        .work-description{
+            font-size: 1.75rem;
+        }
+    }
+}

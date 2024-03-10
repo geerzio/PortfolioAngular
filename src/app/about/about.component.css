@@ -1,5 +1,5 @@
 .about-container{
-    margin: 0 50px;
+    
     position: relative;
     padding-top: 5%;
     /*  */
@@ -30,4 +30,6 @@
     }
 
 }
-
+:host {
+  background-color: red; /* Cambia el color de fondo del componente raíz */
+}

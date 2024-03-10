@@ -7,6 +7,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BannerComponent } from './banner/banner.component';
 import { HeadComponent } from './head/head.component';
 import { AboutComponent } from './about/about.component';
+import { WorksDoneComponent } from './works-done/works-done.component';
+import { WorkComponent } from './work/work.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './in-memory-data.service';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +20,17 @@ import { AboutComponent } from './about/about.component';
     NavBarComponent,
     BannerComponent,
     HeadComponent,
-    AboutComponent
+    AboutComponent,
+    WorksDoneComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+  InMemoryDataService, { dataEncapsulation: false }
+)
   ],
   providers: [],
   bootstrap: [AppComponent]

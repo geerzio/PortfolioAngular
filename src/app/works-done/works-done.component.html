@@ -1,0 +1,7 @@
+<h3 class="section-title">
+  {{ work }}
+</h3>
+<app-work
+  *ngFor="let workDataParent of worksList"
+  [workData]="workDataParent"
+></app-work>

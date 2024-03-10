@@ -2,9 +2,10 @@
     background-image: url(../../../src/assets/img/IMG-20230101-WA0076.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 50px;
+    /*margin: 0 50px;           Si le saco el margin le toma todo el ancho de la pagina */
     position: relative;
-    height: 73%;
+    height: 80%;
+    /*width: 100%;*/
 }
 
 .titleh2{
